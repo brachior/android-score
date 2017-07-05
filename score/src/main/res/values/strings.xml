@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Score</string>
+
+    <declare-styleable name="ScoreView">
+        <attr name="lvl_anim_duration" format="integer" />
+
+        <attr name="lvl_padding" format="dimension" />
+        <attr name="lvl_drawable" format="reference" />
+
+        <attr name="lvl_fontSize" format="dimension" />
+        <attr name="lvl_fontColor" format="color" />
+        <attr name="lvl_typeface" format="integer" />
+        <attr name="lvl_fontFamily" format="string" />
+        <attr name="lvl_textStyle" format="enum">
+            <enum name="normal" value="0" />
+            <enum name="bold" value="1" />
+            <enum name="italic" value="2" />
+            <enum name="bold_italic" value="3" />
+        </attr>
+
+        <attr name="lvl_level" format="integer" />
+        <attr name="lvl_percent" format="integer" />
+
+        <attr name="lvl_level_preview" format="integer" />
+        <attr name="lvl_progress_preview" format="integer" />
+    </declare-styleable>
+</resources>
